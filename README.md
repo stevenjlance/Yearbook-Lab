@@ -2,11 +2,11 @@
 
 ![Yearbook Preview](./yearbookpreview.png)
 
-This repository accompanies the lecture on parent and child components. See the [Lecture Notes](https://github.com/upperlinecode/CS-and-the-City-Curriculum/blob/with-unit-2/react/4-react.md) for additional framing.
+**GOAL**: You have been tasked with creating a digital yearbook for DPCHS. The page has been given to you as one giant HTML file. Convert the page to React components and render the student data on each card.
 
-## Getting Started
+## Today's Lab
 
-1. Clone this repository using `git clone`
-2. `cd` into the `react-parent-child-lecture` folder
-3. `npm install`
-4. `npm start`
+1. With your partner, brainstorm what your parent and child components should be. Create a diagram of what the structure of the page should look like
+2. The page has been given to you as one giant HTML file. Convert the page to React components. **NOTE**: You will have to create a components folder to store your newly created components. Don’t forget to import and export your components.
+3. Student data has been provided for you for all seniors. Pass this data to the `<SeniorCard />` that you create and render each individual student using a `map` function.
+4. **STRETECH**: Create a file called `juniordata.js`.Add information about the juniors (similar to the data used for seniors) and render this information in the `<JuniorCard />` that you created!
